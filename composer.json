@@ -38,9 +38,10 @@
     "phpstan/phpstan": "^2.1",
     "squizlabs/php_codesniffer": "^3.7",
     "codeception/module-yii2": "^1.1",
-    "codeception/module-asserts": "^3.0",
+    "codeception/module-asserts": "^3.1",
     "guzzlehttp/guzzle": "^7.5",
-    "http-interop/http-factory-guzzle": "^1.0"
+    "http-interop/http-factory-guzzle": "^1.0",
+    "codeception/module-phpbrowser": "*"
   },
   "scripts": {
     "test": "phpunit"
@@ -52,7 +53,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "yiifusion\\tests\\": "tests/"
+      "YiiFusion\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -71,3 +72,4 @@
     }
   ]
 }
+
