@@ -1,0 +1,19 @@
+includes:
+  - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+  level: 5
+  phpVersion: 80100
+
+  paths:
+    - src
+    - tests
+
+  excludePaths:
+    - vendor
+
+  bootstrapFiles:
+    - vendor/yiisoft/yii2/Yii.php
+
+  checkMissingVarTagTypehint: true
+  treatPhpDocTypesAsCertain: false
